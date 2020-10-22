@@ -41,6 +41,7 @@ import './index.css';
         } else {
           status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
         }  
+        
       return (
         <div>
           <div className="status">{status}</div>
